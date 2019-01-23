@@ -24,13 +24,3 @@ RUN mkdir /var/run/sshd
 EXPOSE 22
 #启动sshd服务
 CMD ["/usr/sbin/sshd", "-D"]
-
-
-
-
-
-
-
-
-
-
