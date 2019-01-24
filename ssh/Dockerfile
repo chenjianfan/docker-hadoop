@@ -8,7 +8,10 @@ RUN yum -y install wget && rm -rf /etc/yum.repos.d/* \
 && yum install -y openssh-clients \
 && yum install -y openssh \
 && yum install -y rsync \
-
+&& yum install -y vim \
+&& yum clean headers  \
+&& yum clean packages  \
+&& yum clean metadata  \
 && sed -i "s/#UsePrivilegeSeparation.*/UsePrivilegeSeparation no/g" /etc/ssh/sshd_config \
 && sed -i "s/#PermitRootLogin.*/PermitRootLogin yes/g"            /etc/ssh/sshd_config \
 && sed -i "s/#PubkeyAuthentication.*/PubkeyAuthentication yes/g"  /etc/ssh/sshd_config \
