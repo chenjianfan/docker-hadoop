@@ -2,7 +2,7 @@
 使用docker搭建的hadoop分布式集群
 
 
-###创建 Hadoop Cluster 集群
+#####创建 Hadoop Cluster 集群
 
 
 
@@ -25,10 +25,11 @@ cd docker-hadoop
 start-hadoopContainer
 ```
 
-######输出
+#####输出
 ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
 
 ####查看启动容器的名称以及分配的ip
+
 ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/c_20190206172447.png)
 
 
