@@ -28,6 +28,11 @@ start-hadoopContainer
 ######输出
 ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
 
+####查看启动容器的名称以及分配的ip
+![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/c_20190206172447.png)
+
+
+
 ##### 启动容器成功后，默认进入master容器，
 
 格式化
