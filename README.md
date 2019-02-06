@@ -26,6 +26,7 @@ start-hadoopContainer
 ```
 
 ####输出
+
 ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
 
 ####查看启动容器的名称以及分配的ip，详细请查看start-hadoopContainer脚本内容
@@ -58,7 +59,8 @@ start-all.sh
 [root@master /]# 
 ```
 ##### 进入ssh slave2,slave1,slave3 验证是否启动NodeManager
-[slave2 jps]()
+![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/88_20190206170921.png)
+
 
 
 ##### 自定义slave容器数量，但是docker容器默认是分配3个，修改在/usr/local/hadoop-3.1.1/etc/hadoop/workers
