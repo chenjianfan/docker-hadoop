@@ -9,7 +9,7 @@
 ##### 拉取镜像
 
 ```
-docker pull woshicheng93632/hadoop:1
+docker pull woshicheng93632/hadoop:2
 ```
 
 #####下载hadoop dockerfile库，以及sh命令
