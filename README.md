@@ -27,19 +27,7 @@ start-hadoopContainer
 
 输出
 
-```
-Starting namenodes on [master]
-Last login: Mon Feb  4 10:10:19 UTC 2019 from 120.37.246.118 on pts/0
-Starting datanodes
-Last login: Tue Feb  5 15:32:00 UTC 2019 on pts/0
-Starting secondary namenodes [master]
-Last login: Tue Feb  5 15:32:02 UTC 2019 on pts/0
-Starting resourcemanager
-Last login: Tue Feb  5 15:32:05 UTC 2019 on pts/0
-Starting nodemanagers
-Last login: Tue Feb  5 15:32:10 UTC 2019 on pts/0
-[root@master /]# 
-```
+[](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
 
 ##### 启动容器成功后，默认进入master容器，
 
