@@ -26,8 +26,7 @@ start-hadoopContainer
 ```
 
 输出
-
-[](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
+ ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
 
 ##### 启动容器成功后，默认进入master容器，
 
