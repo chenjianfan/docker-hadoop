@@ -25,10 +25,10 @@ cd docker-hadoop
 start-hadoopContainer
 ```
 
-#####输出
+####输出
 ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/start_20190205233112.png)
 
-####查看启动容器的名称以及分配的ip
+####查看启动容器的名称以及分配的ip，详细请查看start-hadoopContainer脚本内容
 
 ![image](https://github.com/chenjianfan/docker-hadoop/blob/master/images/c_20190206172447.png)
 
